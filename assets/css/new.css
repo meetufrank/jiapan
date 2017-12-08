@@ -61,6 +61,9 @@
 	.img-product{
 		display: none;
 	}
+	.mobile-xs-6{
+		width:50%;
+	}
 }
 .title-product{
 	line-height: 5;
@@ -81,4 +84,19 @@
 .text-center a{
 	text-decoration: none;
 	outline: none;
+}
+.nav-fill .nav-item{
+	width: 100%;
+}
+#testimonials{
+	background-color: white !important;
+}
+#contact{
+	background-color: #2d2d37 !important;
+}
+.contact-heading-title,.contact-heading-address,.contact-heading-phone{
+	color: white !important;
+}
+.testimonials-img-border{
+	border-color: white !important;
 }
