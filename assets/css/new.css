@@ -78,3 +78,7 @@
 .icptext{
 	color: white;
 }
+.text-center a{
+	text-decoration: none;
+	outline: none;
+}

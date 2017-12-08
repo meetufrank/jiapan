@@ -614,7 +614,7 @@
           <a class="d-block g-width-140 mx-auto g-mb-30" href="#">
             <img class="img-fluid" src="assets/img/JPLOGO.png" alt="Image description">
           </a>
-          <a class="d-block g-width-140 mx-auto g-mb-30" href="#">
+          <a class="d-block g-width-140 mx-auto g-mb-30" href="#" onclick="openewm();">
             <img class="img-fluid" src="assets/img/JPEWM.png" alt="Image description">
           </a>
           <a class="d-block g-width-140 mx-auto g-mb-30" href="#">
@@ -679,6 +679,17 @@
     <!-- JS Customization -->
     <script src="assets/js/custom.js"></script>
 
+    <!-- layermobile -->
+    <script src="assets/layer.mobile-v2.0/layer_mobile/layer.js"></script>
+
+    <script>
+      function openewm(){
+        var imgblock = '<img src="assets/img/BigJPEWM.png">'
+         layer.open({
+          content: imgblock
+        });
+      }
+    </script>
     <!-- JS Plugins Init. -->
     <script>
       // initialization of google map
