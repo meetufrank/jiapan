@@ -10,7 +10,8 @@ html {
 body {
   font-weight: 400;
   font-size: 1rem;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "SimHei",sans-serif;
+  // font-family: "Open Sans", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #7d7d8f;
   -webkit-font-smoothing: antialiased;
