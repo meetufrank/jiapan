@@ -1,0 +1,114 @@
+@media (min-width:768px) {
+	.g-theme-bg-blue-dark-v3,.g-theme-bg-blue-dark-v4{
+		min-height:400px;
+	}
+	.center-algin-block{
+		margin: 0 auto;
+	}
+	.size-text-product{
+		font-size:1.3rem !important;
+		font-weight: 400 !important;
+		color: white !important;
+		
+	}
+	.size-text-about{
+		font-size:1.3rem !important;
+		font-weight: 400 !important;
+		color: white !important;
+		
+	}
+	.color-product-main{
+		padding:4.14286rem 1.14286rem !important;
+	}
+	.color-about-main{
+		padding:4.14286rem 3.1526rem !important;
+	}
+	.img-product{
+		width:70%;
+		position: absolute;
+		top:85%;
+		left: 0px;
+    	right: 0px;
+    	margin: 0 auto;
+	}
+	#product{
+		margin-bottom:5.5rem !important;
+	}
+}
+@media (max-width:767px){
+	#product{
+		margin-bottom: 30px;
+	}
+	.mobile-container-product,.mobile-container-about{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.center-algin-block,.mobile-align-block-about{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		margin-bottom: 1rem;
+	}
+	.size-text-product{
+		font-size: 1.5rem !important;
+		font-weight: 400 !important;
+		color: white !important;
+	}
+	.size-text-about{
+		font-size: 1.5rem !important;
+		font-weight: 400 !important;
+		color: white !important;
+	}
+	.img-product{
+		display: none;
+	}
+	.mobile-xs-6{
+		width:50%;
+	}
+}
+.title-product{
+	line-height: 5;
+	color: white;
+	background-color: #363643 !important;
+	text-align: center;
+    font-size:1.5rem;
+}
+.color-product-main{
+	background-color: #CA4644 !important;
+}
+.g-bg-img-hero{
+	position: relative;
+}
+.icptext{
+	color: white;
+}
+.text-center a{
+	text-decoration: none;
+	outline: none;
+}
+.nav-fill .nav-item{
+	width: 100%;
+}
+#testimonials{
+	background-color: white !important;
+}
+#contact{
+	background-color: #2d2d37 !important;
+}
+.contact-heading-title,.contact-heading-address,.contact-heading-phone{
+	color: white !important;
+}
+.testimonials-img-border{
+	border-color: white !important;
+}
+.color-product-main:hover{
+	opacity: 1 !important;
+}
+#processes{
+	background-color: #2d2d37 !important;
+}
+#contact{
+	padding-bottom: 0px !important;
+}
+.processes-title-news,.processes-titles-main,.processes-titles{
+	color: white !important;
+}
