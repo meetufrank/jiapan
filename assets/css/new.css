@@ -100,3 +100,15 @@
 .testimonials-img-border{
 	border-color: white !important;
 }
+.color-product-main:hover{
+	opacity: 1 !important;
+}
+#processes{
+	background-color: #2d2d37 !important;
+}
+#contact{
+	padding-bottom: 0px !important;
+}
+.processes-title-news,.processes-titles-main,.processes-titles{
+	color: white !important;
+}
