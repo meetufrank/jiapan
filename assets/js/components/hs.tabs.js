@@ -112,6 +112,7 @@
       var activeItemHTML = menu.find('.active').html();
 
       $(menu).before('<a class="js-tabs-mobile-control ' + btnClasses + '" href="#">' + activeItemHTML + '</a>');
+      $(menu).slideToggle(200);
 
       /*----- CLICK -----*/
       context.on('click', '.js-tabs-mobile-control', function (e) {
