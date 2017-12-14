@@ -84,6 +84,7 @@
 .text-center a{
 	text-decoration: none;
 	outline: none;
+	width: 100% !important;
 }
 .nav-fill .nav-item{
 	width: 100%;
@@ -111,4 +112,11 @@
 }
 .processes-title-news,.processes-titles-main,.processes-titles{
 	color: white !important;
+}
+.img-border-bottom{
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.bottomimg-bottom{
+	padding-bottom: 1rem !important;
 }
