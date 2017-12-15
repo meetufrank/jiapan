@@ -744,11 +744,65 @@ $('#commentForm').validate({
       //   email: "请填写正确的邮箱"
       // }
     },
+
     // ignore: '.ignore',
     errorPlacement: function(error, element) {
       error.appendTo(element.closest('.form-group').find('.error-container'));
+    },
+
+
+    submitHandler:function(form) {
+	   
+        emailsht();
     }
   });
+
+function emailsht(){
+     //loading带文字
+			  layer.open({
+				type: 2,
+				content: '发送中',
+				time:2
+			  });
+	
+    //姓名
+    var name = $("#username").val();
+
+    //电话
+    var phone = $("#phone").val();
+
+    //邮箱
+    var email = $("#email").val();
+
+    //留言
+    var message = $("#comment").val();
+
+    $.ajax({
+        type:"post",
+        url:"__CONTROLLER__/emails",
+        dataType:"json",
+        data:{name:name,phone:phone,email:email,message:message},
+        success:function(data) {
+            console.log(data);
+            
+
+            if(data == 1){
+ 
+                layer.open({
+                    content: '邮件发送成功',
+                    skin: 'msg'
+                   
+                });
+            }else{
+                layer.open({
+                    content: '邮件发送失败!!!'
+                    ,skin: 'msg'
+                   
+                });
+            }
+        }
+    });
+}
 </script>
 	<!-- 发送邮箱 -->
     <script>
