@@ -113,6 +113,10 @@
 .processes-title-news,.processes-titles-main,.processes-titles{
 	color: white !important;
 }
+.processes-titles-main{
+	text-align: left !important;
+	text-indent:25px;
+}
 .img-border-bottom{
 	padding-bottom: 0 !important;
 	padding-top: 0 !important;
