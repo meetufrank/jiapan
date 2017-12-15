@@ -760,10 +760,14 @@ $('#commentForm').validate({
 function emailsht(){
      //loading带文字
 			  layer.open({
+			    shadeClose: false,
 				type: 2,
 				content: '发送中',
 				time:2
 			  });
+			  
+			  
+			 
 	
     //姓名
     var name = $("#username").val();
